@@ -19,7 +19,7 @@ class Clothing {
         side = "civ";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, { "", "", -1 } },
-            { "U_C_Poloshirt_stripped", "Poloshirt stripped", 125, { "", "", -1 } },
+            { "U_C_Poloshirt_stripped", "Poloshirt stripped", 100, { "", "", -1 } },
             { "U_C_Poloshirt_redwhite", "Poloshirt Red/White", 150, { "", "", -1 } },
             { "U_C_Poloshirt_salmon", "Poloshirt Salmon", 175, { "", "", -1 } },
             { "U_C_Poloshirt_blue", "Poloshirt Blue", 250, { "", "", -1 } },
