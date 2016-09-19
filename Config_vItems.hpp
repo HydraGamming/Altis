@@ -178,7 +178,7 @@ class VirtualItems {
         weight = 4;
         buyPrice = 900;
         sellPrice = 450;
-        illegal = false;
+        illegal = true;
         edible = -1;
         icon = "icons\ico_defibrillator.paa";
     };

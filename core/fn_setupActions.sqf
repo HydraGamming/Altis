@@ -15,3 +15,6 @@ switch (playerSide) do {
         !isNull cursorObject && player distance cursorObject < 3.5 && isPlayer cursorObject && animationState cursorObject == "Incapacitated" && !(cursorObject getVariable["robbed",FALSE]) ']];
     };
 };
+case west: {
+     //Polizeimarke
+	    life_actions = life_actions + [player addAction["<t color=''00FF00#>Polizeimarke zeigen</t>",life_fnc_copShowLicense,""],1,false,true,"",' playerSide == west && !isNull cursorTarget isKindOf "Man" ']];
