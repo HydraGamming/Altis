@@ -17,4 +17,5 @@ switch (playerSide) do {
 };
 case west: {
      //Polizeimarke
-	    life_actions = life_actions + [player addAction["<t color=''00FF00#>Polizeimarke zeigen</t>",life_fnc_copShowLicense,""],1,false,true,"",' playerSide == west && !isNull cursorTarget isKindOf "Man" ']];
+	    life_actions = life_actions + [player addAction["<t color='#00FF00'>Polizeimarke zeigen</t>",life_fnc_copShowLicense,"",1,false,true,"",' playerSide == west && !isNull cursorTarget && cursorTarget isKindOf "Man" ']];
+		}
