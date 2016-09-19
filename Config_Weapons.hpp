@@ -131,8 +131,8 @@ class WeaponShops {
     };
 
     //Cop Shops
-    class cop_basic {
-        name = "Altis Cop Shop";
+    class cop_trainee {
+        name = "Altis trainee Shop";
         side = "cop";
         license = "";
         level[] = { "", "", -1, "" };
@@ -155,11 +155,11 @@ class WeaponShops {
         };
     };
 
-    class cop_patrol {
-        name = "Altis Patrol Officer Shop";
+    class cop_contender {
+        name = "Polizei-Anwärter Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 2, "You must be a Patrol Officer Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 2, "Du musst Polizeianwärter sein!" };
         items[] = {
             { "arifle_MX_F", "", 35000, 7500 },
             { "SMG_02_ACO_F", "", 30000, -1 },
@@ -181,11 +181,11 @@ class WeaponShops {
         };
     };
 
-    class cop_sergeant {
-        name = "Altis Sergeant Officer Shop";
+    class cop_commissioner {
+        name = "Polizei-Kommissar Shop";
         side = "cop";
         license = "";
-        level[] = { "life_coplevel", "SCALAR", 3, "You must be a Sergeant Rank!" };
+        level[] = { "life_coplevel", "SCALAR", 3, "Du musst Kommissar sein!" };
         items[] = {
             { "hgun_ACPC2_F", "", 17500, -1 },
             { "SMG_02_ACO_F", "", 15000, -1 },
@@ -205,7 +205,199 @@ class WeaponShops {
         };
     };
 
-    //Medic Shops
+	class cop_commissioner2" {
+        name = "Oberkommissar-Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 4, "Du musst Oberkommissar sein!" };
+        items[] = {
+            { "arifle_MX_F", "", 35000, 7500 },
+            { "SMG_02_ACO_F", "", 30000, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "acc_flashlight", "", 750, 100 },
+            { "optic_Holosight", "", 1200, 275 },
+            { "optic_Arco", "", 2500, -1 },
+            { "muzzle_snds_H", "", 2750, -1 }
+        };
+        mags[] = {
+            { "30Rnd_65x39_caseless_mag", "", 130 },
+            { "30Rnd_9x21_Mag", "", 250 }
+        };
+        accs[] = {
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_Arco", "", 2500 },
+            { "muzzle_snds_H", "", 2750 }
+			
+		class cop_Hauptkommisar {
+        name = "Hauptkomissar-Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 5, "Du musst Hauptkommissar sein!" };
+        items[] = {
+            { "arifle_MX_F", "", 35000, 7500 },
+            { "SMG_02_ACO_F", "", 30000, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "acc_flashlight", "", 750, 100 },
+            { "optic_Holosight", "", 1200, 275 },
+            { "optic_Arco", "", 2500, -1 },
+            { "muzzle_snds_H", "", 2750, -1 }
+        };
+        mags[] = {
+            { "30Rnd_65x39_caseless_mag", "", 130 },
+            { "30Rnd_9x21_Mag", "", 250 }
+        };
+        accs[] = {
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_Arco", "", 2500 },
+            { "muzzle_snds_H", "", 2750 }
+			
+			class cop_superintendent {
+        name = "Altis Patrol Officer Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 6, "Du musst im Polizeirat sein!" };
+        items[] = {
+            { "arifle_MX_F", "", 35000, 7500 },
+            { "SMG_02_ACO_F", "", 30000, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "acc_flashlight", "", 750, 100 },
+            { "optic_Holosight", "", 1200, 275 },
+            { "optic_Arco", "", 2500, -1 },
+            { "muzzle_snds_H", "", 2750, -1 }
+        };
+        mags[] = {
+            { "30Rnd_65x39_caseless_mag", "", 130 },
+            { "30Rnd_9x21_Mag", "", 250 }
+        };
+        accs[] = {
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_Arco", "", 2500 },
+            { "muzzle_snds_H", "", 2750 }
+			
+			class cop_dierektor {
+        name = "Polizeidirektor-Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 7, "Du musst Polizeidierektor!" };
+        items[] = {
+            { "arifle_MX_F", "", 35000, 7500 },
+            { "SMG_02_ACO_F", "", 30000, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "acc_flashlight", "", 750, 100 },
+            { "optic_Holosight", "", 1200, 275 },
+            { "optic_Arco", "", 2500, -1 },
+            { "muzzle_snds_H", "", 2750, -1 }
+        };
+        mags[] = {
+            { "30Rnd_65x39_caseless_mag", "", 130 },
+            { "30Rnd_9x21_Mag", "", 250 }
+        };
+        accs[] = {
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_Arco", "", 2500 },
+            { "muzzle_snds_H", "", 2750 }
+			
+			class cop_pilot {
+        name = "Piloten-Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 8, "Du musst Pilot sein!" };
+        items[] = {
+            { "arifle_MX_F", "", 35000, 7500 },
+            { "SMG_02_ACO_F", "", 30000, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "acc_flashlight", "", 750, 100 },
+            { "optic_Holosight", "", 1200, 275 },
+            { "optic_Arco", "", 2500, -1 },
+            { "muzzle_snds_H", "", 2750, -1 }
+        };
+        mags[] = {
+            { "30Rnd_65x39_caseless_mag", "", 130 },
+            { "30Rnd_9x21_Mag", "", 250 }
+        };
+        accs[] = {
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_Arco", "", 2500 },
+            { "muzzle_snds_H", "", 2750 }
+			
+			class cop_Sek-Trainee {
+        name = "Sek-Anwärter Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 9, "Du musst SEK-Anwärter sein!" };
+        items[] = {
+            { "arifle_MX_F", "", 35000, 7500 },
+            { "SMG_02_ACO_F", "", 30000, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "acc_flashlight", "", 750, 100 },
+            { "optic_Holosight", "", 1200, 275 },
+            { "optic_Arco", "", 2500, -1 },
+            { "muzzle_snds_H", "", 2750, -1 }
+        };
+        mags[] = {
+            { "30Rnd_65x39_caseless_mag", "", 130 },
+            { "30Rnd_9x21_Mag", "", 250 }
+        };
+        accs[] = {
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_Arco", "", 2500 },
+            { "muzzle_snds_H", "", 2750 }
+			
+			class cop_Sek-Mitglied {
+        name = "Sek-Mitglied Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 10, "Du musst SEK-Mitglied sein!" };
+        items[] = {
+            { "arifle_MX_F", "", 35000, 7500 },
+            { "SMG_02_ACO_F", "", 30000, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "acc_flashlight", "", 750, 100 },
+            { "optic_Holosight", "", 1200, 275 },
+            { "optic_Arco", "", 2500, -1 },
+            { "muzzle_snds_H", "", 2750, -1 }
+        };
+        mags[] = {
+            { "30Rnd_65x39_caseless_mag", "", 130 },
+            { "30Rnd_9x21_Mag", "", 250 }
+        };
+        accs[] = {
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_Arco", "", 2500 },
+            { "muzzle_snds_H", "", 2750 }
+			
+			class cop_SEK-Leitung {
+        name = "SEK-Leitung Shop";
+        side = "cop";
+        license = "";
+        level[] = { "life_coplevel", "SCALAR", 11, "Du musst SEK-Leitung sein!" };
+        items[] = {
+            { "arifle_MX_F", "", 35000, 7500 },
+            { "SMG_02_ACO_F", "", 30000, -1 },
+            { "HandGrenade_Stone", "Flashbang", 1700, -1 },
+            { "acc_flashlight", "", 750, 100 },
+            { "optic_Holosight", "", 1200, 275 },
+            { "optic_Arco", "", 2500, -1 },
+            { "muzzle_snds_H", "", 2750, -1 }
+        };
+        mags[] = {
+            { "30Rnd_65x39_caseless_mag", "", 130 },
+            { "30Rnd_9x21_Mag", "", 250 }
+        };
+        accs[] = {
+            { "acc_flashlight", "", 750 },
+            { "optic_Holosight", "", 1200 },
+            { "optic_Arco", "", 2500 },
+            { "muzzle_snds_H", "", 2750 }
+    
+	//Medic Shops
     class med_basic {
         name = "store";
         side = "med";
