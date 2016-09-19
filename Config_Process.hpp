@@ -22,7 +22,7 @@ class ProcessAction {
         MaterialsGive[] = {{"oil_processed",1}};
         Text = "STR_Process_Oil";
         //ScrollText = "Process Oil";
-        NoLicenseCost = 1300;
+        NoLicenseCost = 1200;
     };
 
     class diamond {
@@ -30,7 +30,7 @@ class ProcessAction {
         MaterialsGive[] = {{"diamond_cut",1}};
         Text = "STR_Process_Diamond";
         //ScrollText = "Cut Diamonds";
-        NoLicenseCost = 1450;
+        NoLicenseCost = 1350;
     };
 
     class heroin {
