@@ -20,7 +20,8 @@ class CarShops {
             { "C_Offroad_01_F", { "", "", -1 } },
             { "C_SUV_01_F", { "", "", -1 } },
             { "C_Hatchback_01_sport_F", { "", "", -1 } },
-            { "C_Van_01_transport_F", { "", "", -1 } }
+            { "C_Van_01_transport_F", { "", "", -1 } },
+            { "C_Offroad_02_unarmed_F", { "", "", -1 } } //Apex DLC
         };
     };
 
@@ -54,9 +55,9 @@ class CarShops {
     class civ_air {
         side = "civ";
         vehicles[] = {
-            { "C_Heli_Light_01_civil_F", { "", "", -1 } },
             { "B_Heli_Light_01_F", { "", "", -1 } },
-            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } }
+            { "O_Heli_Light_02_unarmed_F", { "", "", -1 } },
+            { "C_Plane_Civil_01_F", { "", "", -1 } } //Apex DLC
         };
     };
 
@@ -65,7 +66,10 @@ class CarShops {
         vehicles[] = {
             { "C_Rubberboat", { "", "", -1 } },
             { "C_Boat_Civil_01_F", { "", "", -1 } },
-            { "B_SDV_01_F", { "", "", -1 } }
+            { "B_SDV_01_F", { "", "", -1 } },
+            { "C_Boat_Transport_02_F", { "", "", -1 } }, //Apex DLC
+            { "C_Scooter_Transport_01_F", { "", "", -1 } } //Apex DLC
+
         };
     };
 
@@ -76,7 +80,9 @@ class CarShops {
             { "B_G_Offroad_01_F", { "", "", -1 } },
             { "O_MRAP_02_F", { "", "", -1 } },
             { "B_Heli_Light_01_stripped_F", { "", "", -1 } },
-            { "B_G_Offroad_01_armed_F", { "", "", -1 } }
+            { "B_G_Offroad_01_armed_F", { "", "", -1 } },
+            { "O_T_LSV_02_unarmed_F", { "", "", -1 } } //Apex DLC
+
         };
     };
 
@@ -162,6 +168,47 @@ class LifeCfgVehicles {
         price = -1;
         textures[] = {};
     };
+
+    // Apex DLC
+    class C_Boat_Transport_02_F {
+        vItemSpace = 100;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 10000;
+        textures[] = {};
+    };
+
+    // Apex DLC
+    class C_Offroad_02_unarmed_F {
+        vItemSpace = 65;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 12500;
+        textures[] = {};
+    };
+
+    // Apex DLC
+    class C_Plane_Civil_01_F {
+        vItemSpace = 75;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 150000;
+        textures[] = {};
+    };
+
+    // Apex DLC
+    class C_Scooter_Transport_01_F {
+        vItemSpace = 30;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 2500;
+        textures[] = {};
+    };
+
+    // Apex DLC
+    class O_T_LSV_02_unarmed_F {
+        vItemSpace = 100;
+        licenses[] = { {""}, {""}, {""}, {""} };
+        price = 100000;
+        textures[] = {};
+    };
+
 
     class I_Truck_02_medical_F {
         vItemSpace = 150;
