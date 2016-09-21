@@ -131,8 +131,6 @@ class Life_Client_Core {
         class ticketPrompt {};
         class vehInvSearch {};
         class wantedGrab {};
-		class copLicenseShown {};
-		class copShowLicense{};
     };
 
     class Dialog_Controls {
@@ -360,3 +358,10 @@ class Life_Client_Core {
         class vInteractionMenu {};
     };
 };
+
+    class Ausweis
+    {
+      file = "core\Ausweis";
+      class Lizenzsehen {};
+      class Lizenzzeigen {};
+    };
