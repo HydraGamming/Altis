@@ -12,8 +12,9 @@
 #define Btn4 37453
 #define Btn5 37454
 #define Btn6 37455
+#define Btn7 37456
 #define Title 37401
-private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_dlcVehicles"];
+private["_display","_curTarget","_Btn1","_Btn2","_Btn3","_Btn4","_Btn5","_Btn6","_Btn7"];
 if (!dialog) then {
     createDialog "vInteraction_Menu";
 };
@@ -31,6 +32,7 @@ _Btn3 = _display displayCtrl Btn3;
 _Btn4 = _display displayCtrl Btn4;
 _Btn5 = _display displayCtrl Btn5;
 _Btn6 = _display displayCtrl Btn6;
+_Btn7 = _display displayCtrl Btn7;
 life_vInact_curTarget = _curTarget;
 _dlcVehicles = ["C_Kart_01_Blu_F","C_Kart_01_Red_F","C_Kart_01_Fuel_F","C_Kart_01_Vrana_F","B_Heli_Transport_03_F","B_Heli_Transport_03_unarmed_F","O_Heli_Transport_04_F","O_Heli_Transport_04_ammo_F","O_Heli_Transport_04_bench_F","O_Heli_Transport_04_box_F","O_Heli_Transport_04_covered_F","O_Heli_Transport_04_fuel_F","O_Heli_Transport_04_medevac_F","O_Heli_Transport_04_repair_F"];
 
@@ -71,6 +73,11 @@ if (playerSide isEqualTo west) then {
             _Btn6 ctrlSetText localize "STR_vInAct_Unflip";
             _Btn6 buttonSetAction "life_vInact_curTarget setPos [getPos life_vInact_curTarget select 0, getPos life_vInact_curTarget select 1, (getPos life_vInact_curTarget select 2)+0.5]; closeDialog 0;";
             if (alive _curTarget && {crew _curTarget isEqualTo []} && {canMove _curTarget}) then { _Btn6 ctrlEnable false;} else {_Btn6 ctrlEnable true;};
+			};
+			};
+			 _Btn7 ctrlSetText localize "STR_vInAct_Impound_Perm";
+             _Btn7 buttonSetAction "[life_vInact_curTarget] spawn life_fnc_impoundPermAction;";
+			 } else {
         };
     };
 } else {

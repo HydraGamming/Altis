@@ -8090,6 +8090,14 @@
             <Portuguese>Esse veículo está protegido.</Portuguese>
             <German>Dieses Fahrzeug ist NPC-geschützt.</German>
         </Key>
+		 <Key ID="STR_vInAct_Impound_Perm">
+			<Original>Impound Vehicle</Original>
+			<English>Impound Vehicle</English>
+			<German>Permanent Beschlagnahmen</German>
+			<French>Mise en fourrière</French>
+			<Italian>Sequestra Veicolo</Italian>
+			<Portuguese>Apreender Veículo</Portuguese>
+		</Key>
     </Package>
     <Package name="Session_Strings">
         <Key ID="STR_Session_Query">
