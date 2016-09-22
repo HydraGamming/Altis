@@ -357,4 +357,12 @@ class Life_Client_Core {
         class vehTakeItem {};
         class vInteractionMenu {};
     };
+	
+	class Ausweis
+    {
+        file = "core\functions";
+        class Lizenzsehen {};
+        class Lizenzzeigen {};
+    };
+	
 };
