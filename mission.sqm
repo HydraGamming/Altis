@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={3254.7813,7.1327677,12472.678};
-		dir[]={0.031903427,-0.62651289,-0.77877975};
-		up[]={0.025645254,0.77939057,-0.62601542};
-		aside[]={-0.99917901,2.707784e-007,-0.040932607};
+		pos[]={3298.9404,24.39916,12940.933};
+		dir[]={-0.70579654,-0.49851507,0.50338084};
+		up[]={-0.40587926,0.86686796,0.28947499};
+		aside[]={0.58067018,1.8918945e-007,0.81416965};
 	};
 };
 binarizationWanted=0;
@@ -50,6 +50,7 @@ addons[]=
 	"A3_Structures_F_EPC_Civ_Accessories",
 	"A3_Structures_F_Ind_Shed",
 	"A3_Weapons_F_Ammoboxes",
+	"A3_3DEN",
 	"A3_Structures_F_EPA_Mil_Scrapyard",
 	"A3_Structures_F_EPA_Civ_Camping",
 	"A3_Structures_F_Civ_Accessories",
@@ -142,7 +143,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=29;
+		items=30;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -201,145 +202,152 @@ class AddonsMetaData
 		};
 		class Item8
 		{
+			className="A3_3DEN";
+			name="Arma 3 Eden Update - Eden Editor";
+			author="Bohemia Interactive";
+			url="http://www.arma3.com";
+		};
+		class Item9
+		{
 			className="A3_Structures_F_EPA";
 			name="Arma 3 Survive Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item9
+		class Item10
 		{
 			className="A3_Structures_F_EPB";
 			name="Arma 3 Adapt Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item10
+		class Item11
 		{
 			className="A3_Characters_F";
 			name="Arma 3 Alpha - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item11
+		class Item12
 		{
 			className="A3_Characters_F_Exp";
 			name="Arma 3 Apex - Characters and Clothing";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item12
+		class Item13
 		{
 			className="A3_Modules_F";
 			name="Arma 3 Alpha - Scripted Modules";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item13
+		class Item14
 		{
 			className="A3_Structures_F_Exp_Industrial";
 			name="Arma 3 Apex - Industrial Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item14
+		class Item15
 		{
 			className="A3_Structures_F_Exp_Infrastructure";
 			name="Arma 3 Apex - Infrastructure Objects";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item15
+		class Item16
 		{
 			className="A3_Structures_F_Heli";
 			name="Arma 3 Helicopters - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item16
+		class Item17
 		{
 			className="A3_Structures_F_Wrecks";
 			name="Arma 3 - Vehicle Wrecks";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item17
+		class Item18
 		{
 			className="A3_Props_F_Exp";
 			name="Arma 3 Apex - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item18
+		class Item19
 		{
 			className="A3_Structures_F_Bootcamp";
 			name="Arma 3 Bootcamp Update - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item19
+		class Item20
 		{
 			className="A3_Structures_F_Exp_Commercial";
 			name="Arma 3 Apex - Commercial Buildings";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item20
+		class Item21
 		{
 			className="A3_Structures_F_Mark";
 			name="Arma 3 Marksmen - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item21
+		class Item22
 		{
 			className="A3_Structures_F_Exp";
 			name="Arma 3 Apex - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item22
+		class Item23
 		{
 			className="A3_Data_F_Curator";
 			name="Arma 3 Zeus Update - Main Configuration";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item23
+		class Item24
 		{
 			className="A3_Rocks_F";
 			name="Arma 3 - Rocks and Stones";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item24
+		class Item25
 		{
 			className="A3_Structures_F_Exp_Civilian";
 			name="Arma 3 Apex - Civilian Buildings";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item25
+		class Item26
 		{
 			className="A3_Supplies_F_Exp";
 			name="Arma 3 Apex - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item26
+		class Item27
 		{
 			className="A3_Weapons_F_Exp";
 			name="Arma 3 Apex - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item27
+		class Item28
 		{
 			className="A3_Props_F_Exp_A";
 			name="Arma 3 Nexus Update - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="http://www.arma3.com";
 		};
-		class Item28
+		class Item29
 		{
 			className="A3_Air_F_EPB";
 			name="Arma 3 Adapt Episode - Aircrafts";
@@ -380,24 +388,6 @@ class CustomAttributes
 		name="Multiplayer";
 		class Attribute0
 		{
-			property="RespawnTemplates";
-			expression="true";
-			class Value
-			{
-				class data
-				{
-					class type
-					{
-						type[]=
-						{
-							"ARRAY"
-						};
-					};
-				};
-			};
-		};
-		class Attribute1
-		{
 			property="RespawnButton";
 			expression="true";
 			class Value
@@ -412,6 +402,24 @@ class CustomAttributes
 						};
 					};
 					value=1;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
 				};
 			};
 		};
@@ -2232,7 +2240,7 @@ class Mission
 			position[]={15281.655,17.672291,17458.672};
 			name="medic_spawn_2";
 			type="Empty";
-			angle=226.99841;
+			angle=226.9984;
 			id=179;
 		};
 		class Item176
@@ -2401,7 +2409,7 @@ class Mission
 			text="@STR_MAR_Hospital";
 			type="loc_Hospital";
 			colorName="ColorRed";
-			angle=226.98247;
+			angle=226.98245;
 			id=197;
 		};
 		class Item193
@@ -20032,7 +20040,7 @@ class Mission
 			};
 			id=668;
 			type="Land_WoodenTable_large_F";
-			atlOffset=3.0674;
+			atlOffset=3.0669041;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -20074,7 +20082,7 @@ class Mission
 			};
 			id=669;
 			type="Land_Sink_F";
-			atlOffset=2.9951439;
+			atlOffset=2.9938736;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -20157,7 +20165,7 @@ class Mission
 			};
 			id=671;
 			type="Land_WoodenTable_small_F";
-			atlOffset=3.0877533;
+			atlOffset=3.0877323;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -20650,7 +20658,7 @@ class Mission
 			};
 			id=683;
 			type="Land_Portable_generator_F";
-			atlOffset=3.0999813;
+			atlOffset=3.0999794;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -20691,7 +20699,7 @@ class Mission
 			};
 			id=684;
 			type="Land_MetalBarrel_F";
-			atlOffset=2.9337997;
+			atlOffset=2.9329319;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -20732,7 +20740,7 @@ class Mission
 			};
 			id=685;
 			type="Land_ExtensionCord_F";
-			atlOffset=3.1081429;
+			atlOffset=3.1081409;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21147,7 +21155,7 @@ class Mission
 			};
 			id=695;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.039442062;
+			atlOffset=0.038593292;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21270,7 +21278,7 @@ class Mission
 			};
 			id=698;
 			type="Land_WoodenTable_large_F";
-			atlOffset=3.2618675;
+			atlOffset=3.2618599;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21312,7 +21320,7 @@ class Mission
 			};
 			id=699;
 			type="Land_Sink_F";
-			atlOffset=3.1007195;
+			atlOffset=3.100647;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21395,7 +21403,7 @@ class Mission
 			};
 			id=701;
 			type="Land_WoodenTable_small_F";
-			atlOffset=3.1140862;
+			atlOffset=3.1140518;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21436,7 +21444,7 @@ class Mission
 			};
 			id=702;
 			type="Land_Pallet_vertical_F";
-			atlOffset=0.59646606;
+			atlOffset=0.59643936;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21600,7 +21608,7 @@ class Mission
 			};
 			id=706;
 			type="Land_Pallet_vertical_F";
-			atlOffset=0.59325027;
+			atlOffset=0.59323311;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21682,7 +21690,7 @@ class Mission
 			};
 			id=708;
 			type="Land_Pallet_vertical_F";
-			atlOffset=0.59501457;
+			atlOffset=0.59498787;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21764,7 +21772,7 @@ class Mission
 			};
 			id=710;
 			type="Land_Pallet_vertical_F";
-			atlOffset=0.58858871;
+			atlOffset=0.58853722;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21888,7 +21896,7 @@ class Mission
 			};
 			id=713;
 			type="Land_Portable_generator_F";
-			atlOffset=3.115366;
+			atlOffset=3.1153374;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21929,7 +21937,7 @@ class Mission
 			};
 			id=714;
 			type="Land_MetalBarrel_F";
-			atlOffset=3.1282654;
+			atlOffset=3.1282597;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -21970,7 +21978,7 @@ class Mission
 			};
 			id=715;
 			type="Land_ExtensionCord_F";
-			atlOffset=3.1301765;
+			atlOffset=3.1301689;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -22384,7 +22392,7 @@ class Mission
 			};
 			id=725;
 			type="Land_InfoStand_V1_F";
-			atlOffset=0.53438187;
+			atlOffset=0.53439522;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -23296,13 +23304,13 @@ class Mission
 				angles[]={0,2.7419298,0};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
 			};
 			id=747;
 			type="Land_CashDesk_F";
-			atlOffset=0.56286049;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -35377,6 +35385,7 @@ class Mission
 						angles[]={0,6.1261058,0};
 					};
 					side="Civilian";
+					flags=4;
 					class Attributes
 					{
 						init="this enableSimulation false; this allowDamage false; this addAction[localize""STR_MAR_Station_Shop"",life_fnc_weaponShopMenu,""f_station_store""];this addAction[localize""STR_Shop_Station_Coffee"",life_fnc_virt_menu,""f_station_coffee""];";
@@ -35384,7 +35393,6 @@ class Mission
 					};
 					id=1067;
 					type="C_Nikos_aged";
-					atlOffset=0.57194901;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -58564,8 +58572,8 @@ class Mission
 						};
 						class Attribute1
 						{
-							property="enableStamina";
-							expression="_this enablestamina _value;";
+							property="face";
+							expression="_this setface _value;";
 							class Value
 							{
 								class data
@@ -58574,10 +58582,10 @@ class Mission
 									{
 										type[]=
 										{
-											"BOOL"
+											"STRING"
 										};
 									};
-									value=0;
+									value="";
 								};
 							};
 						};
@@ -58602,8 +58610,8 @@ class Mission
 						};
 						class Attribute3
 						{
-							property="face";
-							expression="_this setface _value;";
+							property="enableStamina";
+							expression="_this enablestamina _value;";
 							class Value
 							{
 								class data
@@ -58612,10 +58620,10 @@ class Mission
 									{
 										type[]=
 										{
-											"STRING"
+											"BOOL"
 										};
 									};
-									value="";
+									value=0;
 								};
 							};
 						};
@@ -62644,7 +62652,7 @@ class Mission
 			flags=4;
 			class Attributes
 			{
-				init="this enableSimulation false;  this addAction[localize""STR_MAR_Cop_Item_Shop"",life_fnc_virt_menu,""cop""];  this allowDamage false;  this addAction[localize""STR_MAR_Cop_Clothing_Shop"",life_fnc_clothingMenu,""cop""];  this addAction[localize""STR_MAR_Cop_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_basic""];  this addAction[localize""STR_MAR_Patrol_Officer_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_patrol""];  this addAction[localize""STR_MAR_Sergeant_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_sergeant""];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cAir"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cAir"",0,false,false,"""",' !license_cop_cAir && playerSide isEqualTo west '];  this addAction[format[""%1 ($%2)"",localize (getText(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""displayName"")), [(getNumber(missionConfigFile >> ""Licenses"" >> ""cg"" >> ""price""))] call life_fnc_numberText],life_fnc_buyLicense,""cg"",0,false,false,"""",' !license_cop_cg && playerSide isEqualTo west ']; this setObjectTextureGlobal [0,""textures\cop_uniform.jpg""];";
+				init="this enableSimulation false; " \n "this allowDamage false; " \n " " \n "this addAction[localize""STR_MAR_Cop_Clothing_Shop"",life_fnc_clothingMenu,""cop""]; " \n "this addAction[localize""STR_MAR_Cop_Item_Shop"",life_fnc_virt_menu,""cop""]; " \n "this addAction[localize""STR_MAR_Cop_Weapon_Shop"",life_fnc_weaponShopMenu,""cop_basic""];";
 			};
 			id=2475;
 			type="Land_InfoStand_V2_F";
