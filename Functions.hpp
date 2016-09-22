@@ -60,7 +60,6 @@ class Life_Client_Core {
         class surrender {};
         class ticketAction {};
         class unrestrain {};
-		class impoundPermAction {};
     };
 
     class Admin {
@@ -132,8 +131,6 @@ class Life_Client_Core {
         class ticketPrompt {};
         class vehInvSearch {};
         class wantedGrab {};
-		class copLicenseShown {};
-		class copShowLicense{};
     };
 
     class Dialog_Controls {

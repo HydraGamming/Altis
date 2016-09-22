@@ -10,7 +10,7 @@
             <Portuguese>Loja de Roupas</Portuguese>
             <Polish>Sklep odzieżowy</Polish>
             <Italian>Emporio di Bruce</Italian>
-            <German>Kleidungshändler</German>
+            <German>Bruce Outback Outfits</German>
         </Key>
         <Key ID="STR_Shops_C_Police">
             <Original>Altis Police Department Shop</Original>
@@ -8090,14 +8090,6 @@
             <Portuguese>Esse veículo está protegido.</Portuguese>
             <German>Dieses Fahrzeug ist NPC-geschützt.</German>
         </Key>
-		 <Key ID="STR_vInAct_Impound_Perm">
-			<Original>Impound Vehicle</Original>
-			<English>Impound Vehicle</English>
-			<German>Permanent Beschlagnahmen</German>
-			<French>Mise en fourrière</French>
-			<Italian>Sequestra Veicolo</Italian>
-			<Portuguese>Apreender Veículo</Portuguese>
-		</Key>
     </Package>
     <Package name="Session_Strings">
         <Key ID="STR_Session_Query">

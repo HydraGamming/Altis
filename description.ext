@@ -19,12 +19,10 @@ class RscTitles {
     #include "dialog\progress.hpp"
     #include "dialog\hud_nameTags.hpp"
     #include "dialog\hud_stats.hpp"
-	#include "ais_injury\dialogs\rscTitlesAIS.hpp"
 };
 
 class CfgFunctions {
     #include "Functions.hpp"
-	#include "ais_injury\cfgFunctionsAIS.hpp"
 };
 
 class CfgSounds {
@@ -171,5 +169,4 @@ class CfgNotifications {
         duration = 10;
         priority = 5;
     };
-	
-	
+};
