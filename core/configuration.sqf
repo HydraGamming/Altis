@@ -47,6 +47,7 @@ life_pos_exist = false;
 life_pos_attach = [];
 life_civ_position = [];
 life_markers = false;
+life_fatigue = 0,5;
 
 //Settings
 life_settings_enableSidechannel = profileNamespace getVariable["life_enableSidechannel",true];
